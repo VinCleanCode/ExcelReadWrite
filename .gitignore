@@ -1,0 +1,17 @@
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+.gradle/
+build/
+target/
+
+mods/
+cmd/
+*.bat
+logs/
+*.txt
