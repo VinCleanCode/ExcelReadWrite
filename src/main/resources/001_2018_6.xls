@@ -1,0 +1,1485 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40" >
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office" >
+<Author>ALMACHINE</Author>
+<LastAuthor>ALMACHINE</LastAuthor>
+<Created>2011-10-27T22:37:07Z</Created>
+<LastSaved>2011-11-18T18:33:45Z</LastSaved>
+<Company>PEFIS</Company>
+<Version>11.5606</Version>
+</DocumentProperties>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel" >
+<WindowHeight>12045</WindowHeight>
+<WindowWidth>18195</WindowWidth>
+<WindowTopX>480</WindowTopX>
+<WindowTopY>105</WindowTopY>
+
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+</ExcelWorkbook>
+<Styles>
+<Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Center"/>
+<Font ss:FontName="SimSun" x:CharSet="134" ss:Size="12"/>
+</Style>
+<Style ss:ID="s21">
+<Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+<Font ss:FontName="SimSun" x:CharSet="134" ss:Size="20" ss:Bold="1"/>
+</Style>
+<Style ss:ID="s22">
+<Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+<Font ss:FontName="SimSun" x:CharSet="134" ss:Size="10"/>
+</Style>
+<Style ss:ID="s23">
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:FontName="SimSun" x:CharSet="134" ss:Size="10" ss:Color="#000000"/>
+</Style>
+<Style ss:ID="s24">
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:FontName="SimSun" x:CharSet="134" ss:Size="12"/>
+</Style>
+<Style ss:ID="s25">
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+<Borders>
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+</Borders>
+<Font ss:FontName="SimSun" x:CharSet="134" ss:Size="12"/>
+</Style>
+</Styles>
+<Worksheet ss:Name="考勤卡式報表" >
+<Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="45" x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="14.25" >
+<Column ss:AutoFitWidth="0" ss:Width="20"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Column ss:AutoFitWidth="0" ss:Width="32"/>
+<Row ss:AutoFitHeight="0" ss:Height="37.50" >
+<Cell ss:MergeAcross="16" ss:StyleID="s21" >
+<Data ss:Type="String" >考 勤 卡 式 報 表</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.94" >
+<Cell ss:MergeAcross="16" ss:StyleID="s22" >
+<Data ss:Type="String" >枫阁</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.94" >
+<Cell ss:MergeAcross="16" ss:StyleID="s22" >
+<Data ss:Type="String" >月份 :  06</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.00" >
+<Cell ss:MergeAcross="16" ss:StyleID="s22" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s25" >
+<Data ss:Type="String" >員
+工</Data>
+</Cell>
+<Cell ss:MergeAcross="15" ss:StyleID="s24" >
+<Data ss:Type="String" >工號: 1  姓名: 博任    部門: 办公室</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >1</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >2</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >3</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >4</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >5</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >6</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >7</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >8</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >9</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >10</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >11</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >12</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >13</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >14</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >15</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >16</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >22:18
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >01:13
+21:48
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:43
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >22:28
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:58
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >21:56
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >01:40
+22:02
+23:36
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >22:30
+</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >17</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >18</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >19</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >20</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >21</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >22</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >23</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >24</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >25</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >26</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >27</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >28</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >29</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >30</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >31</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >23:21
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >02:09
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >22:47
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >02:45
+22:06
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >02:38
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.00" >
+<Cell ss:MergeAcross="16" ss:StyleID="s22" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s25" >
+<Data ss:Type="String" >員
+工</Data>
+</Cell>
+<Cell ss:MergeAcross="15" ss:StyleID="s24" >
+<Data ss:Type="String" >工號: 2  姓名:     部門: 办公室</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >1</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >2</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >3</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >4</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >5</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >6</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >7</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >8</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >9</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >10</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >11</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >12</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >13</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >14</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >15</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >16</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >17</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >18</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >19</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >20</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >21</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >22</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >23</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >24</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >25</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >26</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >27</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >28</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >29</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >30</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >31</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.00" >
+<Cell ss:MergeAcross="16" ss:StyleID="s22" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s25" >
+<Data ss:Type="String" >員
+工</Data>
+</Cell>
+<Cell ss:MergeAcross="15" ss:StyleID="s24" >
+<Data ss:Type="String" >工號: 3  姓名: 宜君    部門: 办公室</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >1</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >2</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >3</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >4</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >5</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >6</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >7</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >8</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >9</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >10</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >11</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >12</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >13</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >14</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >15</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >16</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >22:58
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:54
+20:59
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >05:58
+21:58
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >06:00
+22:59
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >01:56
+23:33
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >04:26
+22:56
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >07:45
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >22:55
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:52
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >23:28
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >05:05
+21:58
+</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >17</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >18</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >19</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >20</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >21</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >22</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >23</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >24</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >25</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >26</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >27</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >28</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >29</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >30</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >31</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >06:20
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >23:03
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >01:19
+22:04
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >07:30
+21:57
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >07:01
+21:42
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >07:12
+21:57
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >01:34
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >22:55
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >07:06
+23:22
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >05:38
+22:58
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >05:48
+22:55
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >06:01
+22:57
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >04:12
+21:50
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.00" >
+<Cell ss:MergeAcross="16" ss:StyleID="s22" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s25" >
+<Data ss:Type="String" >員
+工</Data>
+</Cell>
+<Cell ss:MergeAcross="15" ss:StyleID="s24" >
+<Data ss:Type="String" >工號: 5  姓名: 凯凯    部門: 办公室</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >1</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >2</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >3</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >4</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >5</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >6</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >7</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >8</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >9</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >10</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >11</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >12</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >13</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >14</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >15</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >16</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >17</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >18</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >19</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >20</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >21</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >22</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >23</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >24</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >25</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >26</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >27</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >28</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >29</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >30</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >31</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.00" >
+<Cell ss:MergeAcross="16" ss:StyleID="s22" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s25" >
+<Data ss:Type="String" >員
+工</Data>
+</Cell>
+<Cell ss:MergeAcross="15" ss:StyleID="s24" >
+<Data ss:Type="String" >工號: 6  姓名: 阿桃    部門: 办公室</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >1</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >2</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >3</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >4</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >5</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >6</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >7</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >8</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >9</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >10</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >11</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >12</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >13</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >14</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >15</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >16</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >19:00
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:16
+19:03
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:04
+19:22
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >19:01
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:02
+19:00
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:22
+19:02
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:23
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >19:05
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:05
+19:09
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:16
+19:03
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:16
+19:03
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:10
+19:03
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:12
+18:57
+</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >17</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >18</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >19</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >20</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >21</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >22</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >23</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >24</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >25</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >26</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >27</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >28</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >29</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >30</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >31</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:38
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >19:00
+23:59
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >18:58
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:27
+19:09
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:16
+18:59
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:11
+19:05
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:04
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >19:07
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:06
+19:03
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:06
+19:02
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:08
+18:59
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:02
+18:59
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >00:07
+19:03
+</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.00" >
+<Cell ss:MergeAcross="16" ss:StyleID="s22" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s25" >
+<Data ss:Type="String" >員
+工</Data>
+</Cell>
+<Cell ss:MergeAcross="15" ss:StyleID="s24" >
+<Data ss:Type="String" >工號: 7  姓名: 宣    部門: 办公室</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >1</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >2</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >3</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >4</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >5</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >6</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >7</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >8</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >9</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >10</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >11</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >12</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >13</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >14</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >15</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >16</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >17</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >18</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >19</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >20</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >21</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >22</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >23</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >24</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >25</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >26</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >27</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >28</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >29</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >30</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >31</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="15.00" >
+<Cell ss:MergeAcross="16" ss:StyleID="s22" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s25" >
+<Data ss:Type="String" >員
+工</Data>
+</Cell>
+<Cell ss:MergeAcross="15" ss:StyleID="s24" >
+<Data ss:Type="String" >工號: 621  姓名: KK    部門: 办公室</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >1</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >2</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >3</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >4</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >5</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >6</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >7</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >8</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >9</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >10</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >11</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >12</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >13</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >14</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >15</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >16</Data>
+</Cell>
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="30.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >日
+期</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >17</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >18</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >19</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >20</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >21</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >22</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >23</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >24</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >25</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >26</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >27</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >28</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >29</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >30</Data>
+</Cell>
+<Cell ss:StyleID="s23" >
+<Data ss:Type="Number" >31</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+</Row>
+<Row ss:AutoFitHeight="0" ss:Height="60.00" >
+<Cell ss:StyleID="s23" >
+<Data ss:Type="String" >考
+勤</Data>
+</Cell>
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+<Cell ss:StyleID="s23" />
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<PageSetup>
+<Header x:Margin="0.39370078740157483"/>
+<Footer x:Margin="0.39370078740157483"/>
+<PageMargins x:Bottom="0.39370078740157483" x:Left="0.39370078740157483" x:Right="0.15748031496062992" x:Top="0.39370078740157483"/>
+</PageSetup>
+<Unsynced/>
+<Print>
+<ValidPrinterInfo/>
+<PaperSizeIndex>9</PaperSizeIndex>
+<HorizontalResolution>300</HorizontalResolution>
+<VerticalResolution>300</VerticalResolution>
+</Print>
+<Selected/>
+<Panes>
+<Pane>
+<Number>3</Number>
+<ActiveRow>4</ActiveRow>
+<ActiveCol>1</ActiveCol>
+</Pane>
+</Panes>
+<ProtectObjects>False</ProtectObjects>
+<ProtectScenarios>False</ProtectScenarios>
+</WorksheetOptions>
+</Worksheet>
+</Workbook>
